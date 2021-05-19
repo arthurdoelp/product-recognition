@@ -1,9 +1,12 @@
 # import sys
+import os
 
 
 
 # image = sys.argv[1]
+image = "./../IMG_1292.JPG"
 
+image_file_path = os.path.abspath(image)
 
 def detect_text(path):
     """Detects text in the file."""
@@ -34,4 +37,4 @@ def detect_text(path):
             'https://cloud.google.com/apis/design/errors'.format(
                 response.error.message))
 
-detect_text("IMG_1292.JPG")
+detect_text(image_file_path)
