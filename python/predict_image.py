@@ -34,4 +34,4 @@ def detect_text(path):
             'https://cloud.google.com/apis/design/errors'.format(
                 response.error.message))
 
-detect_text("./IMG_1292.JPG")
+detect_text("IMG_1292.JPG")
