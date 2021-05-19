@@ -4,7 +4,7 @@ import os
 
 
 # image = sys.argv[1]
-image = "./../IMG_1292.JPG"
+image = "./IMG_1292.JPG"
 
 image_file_path = os.path.abspath(image)
 
